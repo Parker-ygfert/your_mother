@@ -1,0 +1,11 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "register": "node deploy-commands.js",
+    "start": "node deploy-commands.js && node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  }
+}
